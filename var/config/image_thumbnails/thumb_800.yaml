@@ -1,0 +1,26 @@
+pimcore:
+    assets:
+        image:
+            thumbnails:
+                definitions:
+                    thumb_800:
+                        items:
+                            -
+                                method: resize
+                                arguments:
+                                    width: 800
+                                    height: 800
+                        medias: {  }
+                        name: thumb_800
+                        description: ''
+                        group: ''
+                        format: SOURCE
+                        quality: 85
+                        highResolution: null
+                        preserveColor: false
+                        preserveMetaData: false
+                        rasterizeSVG: false
+                        downloadable: false
+                        modificationDate: 1712651126
+                        creationDate: 1712651102
+                        preserveAnimation: false
