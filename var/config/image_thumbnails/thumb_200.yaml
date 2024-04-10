@@ -1,0 +1,26 @@
+pimcore:
+    assets:
+        image:
+            thumbnails:
+                definitions:
+                    thumb_200:
+                        items:
+                            -
+                                method: resize
+                                arguments:
+                                    width: 200
+                                    height: 200
+                        medias: {  }
+                        name: thumb_200
+                        description: ''
+                        group: ''
+                        format: SOURCE
+                        quality: 85
+                        highResolution: null
+                        preserveColor: false
+                        preserveMetaData: false
+                        rasterizeSVG: false
+                        downloadable: false
+                        modificationDate: 1712651079
+                        creationDate: 1712651055
+                        preserveAnimation: false

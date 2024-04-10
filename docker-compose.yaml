@@ -5,6 +5,8 @@ services:
 
     db:
         image: mariadb:10.11
+        ports:
+            - "3307:3306"
         working_dir: /application
         command: [ mysqld, --character-set-server=utf8mb4, --collation-server=utf8mb4_unicode_ci, --innodb-file-per-table=1 ]
         volumes:

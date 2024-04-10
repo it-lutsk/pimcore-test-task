@@ -20,7 +20,7 @@ return \Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
    'title' => 'Product',
    'description' => 'Imported products',
    'creationDate' => NULL,
-   'modificationDate' => 1711998712,
+   'modificationDate' => 1712005214,
    'userOwner' => 2,
    'userModification' => 2,
    'parentClass' => '',
@@ -51,7 +51,7 @@ return \Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
     array (
       0 => 
       \Pimcore\Model\DataObject\ClassDefinition\Layout\Panel::__set_state(array(
-         'name' => 'Layout',
+         'name' => 'Panel',
          'type' => NULL,
          'region' => NULL,
          'title' => '',
@@ -113,7 +113,7 @@ return \Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
             array (
             ),
              'defaultValue' => NULL,
-             'integer' => false,
+             'integer' => true,
              'unsigned' => false,
              'minValue' => NULL,
              'maxValue' => NULL,
